@@ -1,0 +1,33 @@
+{
+    "students":
+    [
+        {
+            "studentId": "S1001",
+            "name": "Alice Johnson",
+            "phone": "9876543210",
+            "parentPhone": "9123456780",
+            "cardUID": "04A1B2C3D4E5F6"
+        },
+        {
+            "studentId": "S1002",
+            "name": "Bob Smith",
+            "phone": "8765432109",
+            "parentPhone": "9012345678",
+            "cardUID": "04A1B2C3D4E5F7"
+        },
+        {
+            "studentId": "S1003",
+            "name": "Charlie Brown",
+            "phone": "7654321098",
+            "parentPhone": "8901234567",
+            "cardUID": "04A1B2C3D4E5F8"
+        },
+        {
+            "studentId": "S1004",
+            "name": "Diana Prince",
+            "phone": "6543210987",
+            "parentPhone": "7890123456",
+            "cardUID": "04A1B2C3D4E5F9"
+        }
+    ]
+}
