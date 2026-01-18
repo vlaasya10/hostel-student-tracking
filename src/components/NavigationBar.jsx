@@ -3,29 +3,36 @@ import { NavLink } from 'react-router'
 
 function NavigationBar() {
   return (
-    <div className="navbar navbar-expand bg-light fixed-top px-5 border-b">
-        <span className="navbar-brand fw-bold">Hostel Student Tracking</span>
-        <ul className="navbar-nav ms-auto flex-row gap-4">
-          <li className="nav-item">
-            <NavLink to='dashboard' className="nav-link">Dashboard</NavLink>
+    <nav className="navbar navbar-expand-lg bg-light px-4 py-3 fixed-top border-bottom">
+      <span className="navbar-brand fw-bold">Hostel Student Tracking</span>
+
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav ms-auto ">
+          <li className="nav-item pe-3">
+            <NavLink to="/dashboard" className="nav-link">Dashboard</NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink to='students' className="nav-link">Students</NavLink>
+          <li className="nav-item pe-3">
+            <NavLink to="/students" className="nav-link">Students</NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink to='checkin' className="nav-link">Check-In/Out</NavLink>
+          <li className="nav-item pe-3">
+            <NavLink to="/checkin" className="nav-link">Check-In/Out</NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink to='alerts' className="nav-link">Alerts</NavLink>
-          </li> 
-          <li className="nav-item">
-            <NavLink to='notifications' className="nav-link">Notifications</NavLink>
-          </li> 
-          <li className="nav-item">
-            <NavLink to='settings' className="nav-link">Settings</NavLink>
-          </li> 
+          <li className="nav-item pe-3">
+            <NavLink to="/alerts" className="nav-link">Alerts</NavLink>
+          </li>
+          <li className="nav-item pe-3">
+            <NavLink to="/notifications" className="nav-link">Notifications</NavLink>
+          </li>
+          <li className="nav-item pe-3">
+            <NavLink to="/settings" className="nav-link">Settings</NavLink>
+          </li>
         </ul>
-    </div>
+      </div>
+    </nav>
   )
 }
 

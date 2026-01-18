@@ -2,7 +2,7 @@ import React from 'react'
 
 function Settings() {
   return (
-    <div>
+    <div className='text-center'>
       <h2>Settings</h2>
     </div>
   )
