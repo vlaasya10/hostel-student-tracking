@@ -1,16 +1,13 @@
-import React from 'react'
-import NavigationBar from './NavigationBar'
-import {Outlet} from 'react-router'
+import NavigationBar from "./NavigationBar";
+import { Outlet } from "react-router";
 
-function RootLayout() {
+export default function RootLayout() {
   return (
-    <div>
+    <>
       <NavigationBar />
-      <div className="container">
+      <div style={{ marginTop: "70px" }}>
         <Outlet />
       </div>
-    </div>
-  )
+    </>
+  );
 }
-
-export default RootLayout

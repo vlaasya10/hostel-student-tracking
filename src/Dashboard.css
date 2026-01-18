@@ -1,0 +1,155 @@
+.dashboard {
+  padding: 20px;
+  background: #f7f8fa;
+}
+
+/* TOP STATS */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-title {
+  color: #666;
+  font-size: 14px;
+}
+
+.stat-sub {
+  font-size: 12px;
+  color: #888;
+}
+
+.stat-icon {
+  font-size: 22px;
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.blue { background: #e7f0ff; }
+.green { background: #e7f8ee; }
+.orange { background: #fff1df; }
+.red { background: #ffe8e8; }
+
+/* ALERT */
+.critical-alert {
+  background: #fff1f1;
+  border: 1px solid #ffd1d1;
+  color: #c62828;
+  padding: 16px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+/* LOWER GRID */
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.badge {
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+/* RISK ITEM */
+.risk-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.id {
+  font-size: 12px;
+  color: #777;
+}
+
+.meta {
+  font-size: 12px;
+  color: #555;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  height: fit-content;
+}
+
+.tag.high {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.tag.medium {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+/* ACTIVITY */
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.action {
+  font-size: 13px;
+  color: #555;
+}
+
+.time {
+  font-size: 12px;
+  color: #888;
+}
+
+.status {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  height: fit-content;
+}
+
+.status.approved {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status.normal {
+  background: #f1f3f5;
+  color: #444;
+}
+
+.status.unauthorized {
+  background: #ffebee;
+  color: #c62828;
+}
